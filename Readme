@@ -3,5 +3,5 @@ range of cancer detection accuracy within a particular Kaggle dataset.
 
 Note: This was an experimental university project in which the following deficiencies were detected:
 It seems the models overfixate on granularity and blank spaces, and since several biopsy samples
-have regions with both characteristics, and since the sampled images were subdivided into smaller segments 
+have regions with both characteristics, and the sampled images were subdivided into smaller segments 
 (due to time and computational limitations) the results will be biased and inaccurate for other datasets.
