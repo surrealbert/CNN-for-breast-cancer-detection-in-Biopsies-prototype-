@@ -225,7 +225,8 @@ class ConvNet(nn.Module):
 #==============================================================================
 #Carga el modelo indicado
 #Loads a particular trained model
-modelPath = 'C:/Users/DELL/Desktop/ITT/Semestres pasados/11/Diagnostico asistido por Computadora/Proyecto final/Modelos/train_87_test_82_softmax.model' #Enter your filepath here
+modelPath = 'C:/Users/DELL/Desktop/ITT/Semestres pasados/11/Diagnostico asistido por Computadora/Proyecto final/Models/train_87_test_82_softmax.model' #Enter your filepath here
+modelPath = '*****' #Enter the model file path here
 checkpoint=torch.load(modelPath)
 model=ConvNet(num_classes=2)
 model.load_state_dict(checkpoint)
