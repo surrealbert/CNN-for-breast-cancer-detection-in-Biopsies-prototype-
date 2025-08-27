@@ -1,4 +1,4 @@
-Python application with a convolutional neural network using the PyTorch library. The trained models had an 80-93%
+Python application with a convolutional neural network using the PyTorch library. The trained models have a 80-93%
 range of cancer detection accuracy within a particular Kaggle dataset.
 
 Note: This was an experimental university project in which the following deficiencies were detected:
